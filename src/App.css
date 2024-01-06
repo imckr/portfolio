@@ -9,3 +9,11 @@ a {
     color: unset;
     text-decoration: none;
 }
+
+body {
+    background-color: var(--bg-color);
+}
+
+.section-padding {
+    padding: 0 2rem;
+}
