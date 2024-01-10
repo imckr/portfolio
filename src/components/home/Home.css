@@ -18,5 +18,9 @@
 .text {
     font-family: var(--font-family);
     font-size: 45px;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.home-name {
+    padding: 15rem;
 }
