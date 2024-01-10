@@ -1,9 +1,9 @@
 .port__navbar {
   display: flex;
   justify-content: center;
-  position: sticky;
+  position: fixed;
   width: 100%;
-  top: 92vh;
+  bottom: 2rem
 }
 
 .port__navbar-ops {
@@ -15,6 +15,7 @@
   padding: 0.3rem 1rem;
   margin: 0 20rem;
   width: 30rem;
+  align-items: center;
 }
 
 
@@ -25,6 +26,7 @@
   font-size: 20px;
   font-weight: 700;
   line-height: normal;
+  transition: all 0.2s linear;
 }
 
 @media screen and (max-width: 1150px) {
@@ -46,3 +48,15 @@
     /* display: none; */
   }
 }
+
+.port__navbar-ops > p:hover{
+  /* color: red; */
+  font-size: 2pc;
+  animation: scale-up 2s linear ease-in-out;
+}
+
+/* @keyframes scale-up {
+  100% {
+    /* font-size: 24px; */
+  /* } */ 
+/* } */
