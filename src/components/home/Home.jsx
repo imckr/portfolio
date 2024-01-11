@@ -3,7 +3,9 @@ import "./Home.css";
 // import Welcome from '../Welcome/Welcome';
 import { gsap } from "gsap";
 import SplitType from "split-type";
-import Background from "../../container/Background";
+import Background from "../../container/Background/Background";
+import SH from "../../container/SocialHandles/SH";
+import RL from "../../container/RolesLine/RL"
 
 const Home = () => {
   const text = new SplitType(".text", { types: "chars" });
@@ -24,6 +26,7 @@ const Home = () => {
       duration: 1,
       ease: "back.inOut",
       repeat: -1,
+      repeatDelay: 3,
     }
   );
 
@@ -34,6 +37,9 @@ const Home = () => {
         <h1 className="text">Hii,</h1><br />
         <h1 className="text">im__ckr</h1>
       </div>
+      <RL/>
+      {/* <SH/> */}
+
     </div>
   );
 };
