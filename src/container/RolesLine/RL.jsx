@@ -1,6 +1,6 @@
 import React from "react";
 import "./RL.css";
-import line from "../../assets/Vector 2.svg";
+// import line from "../../assets/Vector 2.svg";
 import gsap from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 // import { MotionPathHelper } from "gsap-trial/MotionPathHelper";
@@ -11,7 +11,7 @@ gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
 // gsap.registerPlugin(MotionPathHelper);
 
-const roles = [".Roles", ".Role1", ".Role2", ".Role3"];
+// const roles = [".Roles", ".Role1", ".Role2", ".Role3"];
 
 gsap.to(".Roles", {
   duration: 10,
