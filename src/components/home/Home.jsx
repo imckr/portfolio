@@ -24,8 +24,9 @@ const Home = () => {
       opacity: 1,
       stagger: 0.1,
       duration: 1,
+      delay: 10,
       ease: "back.inOut",
-      repeat: -1,
+      // repeat: 1,
       repeatDelay: 3,
     }
   );
