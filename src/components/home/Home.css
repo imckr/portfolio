@@ -33,3 +33,9 @@
   /* overflow: hidden; */
 }
 
+.mouse-img {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}

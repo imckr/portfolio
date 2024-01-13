@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="port__navbar section-padding">
       <div className="port__navbar-ops">
         <p>
-          <a href="#Home">Home</a>
+          <a href="#HOME">Home</a>
         </p>
         <p>
           <a href="#Portfolio">Portfolio</a>

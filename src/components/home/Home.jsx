@@ -6,6 +6,7 @@ import SplitType from "split-type";
 import Background from "../../container/Background/Background";
 import SH from "../../container/SocialHandles/SH";
 import RL from "../../container/RolesLine/RL"
+import mouseImg from "../../assets/computer-mouse.svg"
 
 const Home = () => {
   const text = new SplitType(".text", { types: "chars" });
@@ -26,21 +27,23 @@ const Home = () => {
       duration: 1,
       delay: 10,
       ease: "back.inOut",
-      // repeat: 1,
+      repeat: 1,
       repeatDelay: 3,
     }
   );
 
   return (
-    <div className="home-page">
+    <div className="home-page" id="HOME">
+      <div className="mouse-img">
+        <img src={mouseImg} alt="img-1" />
+      </div>
       <Background/>
       <div className="home-name">
         <h1 className="text">Hii,</h1><br />
         <h1 className="text">im__ckr</h1>
       </div>
       <RL/>
-      {/* <SH/> */}
-
+      <SH/>
     </div>
   );
 };
