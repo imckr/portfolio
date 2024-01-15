@@ -7,74 +7,74 @@ const Welcome = () => {
   let name = "011010";
        
   return (
-    <div class="upper">
-      <div class="inner">
-        <div class="number">
+    <div className="upper">
+      <div className="inner">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
       </div>
-      <div class="inner">
-        <div class="number odd">
+      <div className="inner">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
-        <div class="number odd">
+        <div className="number odd">
           <p>{name}</p>
         </div>
-        <div class="number">
+        <div className="number">
           <p>{name}</p>
         </div>
       </div>
