@@ -4,9 +4,9 @@ import "./RL.css";
 import gsap from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 // import { MotionPathHelper } from "gsap-trial/MotionPathHelper";
-import { DrawSVGPlugin } from "gsap-trial/DrawSVGPlugin";
+// import { DrawSVGPlugin } from "gsap-trial/DrawSVGPlugin";
 
-gsap.registerPlugin(DrawSVGPlugin);
+// gsap.registerPlugin(DrawSVGPlugin);
 
 gsap.registerPlugin(MotionPathPlugin);
 // gsap.registerPlugin(MotionPathHelper);
@@ -108,7 +108,7 @@ const RL = () => {
             id="path1"
             d="M1405 1C1311.32 166.73 1114.87 464.306 625.471 243.026C136.07 21.7451 1.00015 502.339 1 595"
             stroke="#777676"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </svg>
 
@@ -134,9 +134,9 @@ const RL = () => {
               width="1422.82"
               height="607.333"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"

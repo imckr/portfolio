@@ -6,34 +6,40 @@ import LI from '../../assets/LI.svg'
 // import {gsap} from 'gsap'
 
 
-// let myfunction = () => {
-//   let icons = document.querySelector(".port__SH-container_icon")
+let myfunction = () => {
+  // let icons = document.querySelector(".port__SH-container_icon")
 
-//   icons.style.backgroundColor = "red"
+  // icons.style.backgroundColor = "red"
 
-//   // if(icons.style.display === "none") {
-//   //   icons.style.display = "flex"
-//   // }
-//   // else {
-//   //   icons.style.display = "none"
-//   // }
+  console.log('myfunction called')
 
-//   // gsap.fromTo(
-//   //   ".port__SH-container",
-//   //   {
-//   //     opacity: 0,
-//   //     y: 10,
-//   //   },
-//   //   {
-//   //     opacity: 1,
-//   //     y: 0,
-//   //     stagger: 0.1,
-//   //     duration: 1,
-//   //     ease: "bounce",
-//   //     repeat: 5,
-//   //   }
-//   // );
-// }
+  // if(icons.style.display === "none") {
+  //   icons.style.display = "flex"
+  // }
+  // else {
+  //   icons.style.display = "none"
+  // }
+
+  // gsap.fromTo(
+  //   ".port__SH-container",
+  //   {
+  //     opacity: 0,
+  //     y: 10,
+  //   },
+  //   {
+  //     opacity: 1,
+  //     y: 0,
+  //     stagger: 0.1,
+  //     duration: 1,
+  //     ease: "bounce",
+  //     repeat: 5,
+  //   }
+  // );
+}
+
+let myfunction2 = () => {
+  console.log( "myfunction called" );
+}
 
 const SH = () => {
 
@@ -82,9 +88,9 @@ const SH = () => {
             <img src={LI} alt="LI" />
           </a>
         </div>
-        <div className="port-SH-container_2">
+        <button onClick={myfunction2}>
           <h4>{arrowC}</h4>
-        </div>
+        </button>
       </div>
     </div>
   );
