@@ -27,20 +27,20 @@ const Home = () => {
       duration: 1,
       delay: 10,
       ease: "back.inOut",
-      repeat: 1,
+      repeat: 0,
       repeatDelay: 3,
     }
   );
 
   return (
-    <div className="home-page" id="HOME">
+    <div className="home-page" id="HOME smooth-content">
       <div className="mouse-img">
         <img src={mouseImg} alt="img-1" />
       </div>
       <Background/>
       <div className="home-name">
         <h1 className="text">Hii,</h1><br />
-        <h1 className="text">im__ckr</h1>
+        <h1 className="text">im__CKR</h1>
       </div>
       <RL/>
       <SH/>

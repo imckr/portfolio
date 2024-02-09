@@ -3,50 +3,50 @@ import './SH.css'
 import GitHub from '../../assets/Github.svg'
 import insta from '../../assets/Instagram.svg'
 import LI from '../../assets/LI.svg'
-// import {gsap} from 'gsap'
+import {gsap} from 'gsap'
 
 
 let myfunction = () => {
-  // let icons = document.querySelector(".port__SH-container_icon")
 
-  // icons.style.backgroundColor = "red"
+  // console.log('myfunction called')
 
-  console.log('myfunction called')
+  let sh_icons = document.querySelector('.port__SH-container_icon')
 
-  // if(icons.style.display === "none") {
-  //   icons.style.display = "flex"
-  // }
-  // else {
-  //   icons.style.display = "none"
-  // }
+  if(sh_icons.dataset.dis === 'true') {
+    sh_icons.style.display = 'flex'
+    sh_icons.dataset.dis = 'false'
+  } else {
+    sh_icons.style.display = 'none'
+    sh_icons.dataset.dis = 'true'
+  }
 
-  // gsap.fromTo(
-  //   ".port__SH-container",
-  //   {
-  //     opacity: 0,
-  //     y: 10,
-  //   },
-  //   {
-  //     opacity: 1,
-  //     y: 0,
-  //     stagger: 0.1,
-  //     duration: 1,
-  //     ease: "bounce",
-  //     repeat: 5,
-  //   }
-  // );
+  // const container = []
+
+  gsap.fromTo(
+    ".port__SH-container_icon",
+    {
+      opacity: 0,
+      y: 10,
+    },
+    {
+      opacity: 1,
+      y: 0,
+      stagger: 1,
+      duration: 2,
+      ease: "back.out",
+      // repeat: 5,
+    }
+  );
+
+  // return;
 }
 
-let myfunction2 = () => {
-  console.log( "myfunction called" );
-}
 
 const SH = () => {
 
     const arrowO = "<>"
     const arrowC = "</>"
 
-    
     // gsap.fromTo(
     //   ".port__SH-container",
     //   {
@@ -69,8 +69,9 @@ const SH = () => {
         {/* <div className="port__SH-container_1"> */}
         {/* </div> */}
         <h4>{arrowO}</h4>
-        <div className="port__SH-container_icon">
+        <div className="port__SH-container_icon" data-dis="true">
           <a href="https://github.com/imckr" target="_blank" rel="noreferrer">
+            {/* <h6>Github</h6> */}
             <img src={GitHub} alt="GH" />
           </a>
           <a
@@ -88,7 +89,7 @@ const SH = () => {
             <img src={LI} alt="LI" />
           </a>
         </div>
-        <button onClick={myfunction2}>
+        <button onClick={myfunction}>
           <h4>{arrowC}</h4>
         </button>
       </div>

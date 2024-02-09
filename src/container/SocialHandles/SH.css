@@ -17,15 +17,16 @@
 }
 
 .port__SH-container_icon {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   opacity: 1;
+  /* transition: all 2s ease-in-out; */
 }
 .port__SH-container_icon a {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
+  align-items: center;
   padding: 0.3rem 0;
 }
 

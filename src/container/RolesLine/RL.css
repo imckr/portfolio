@@ -23,7 +23,7 @@
 
 .Roles {
     /* border: 1px solid black; */
-    width: 140px;
+    width: 200px;
     height: 70px;
     display: flex;
     /* align-items: flex-start; */
@@ -35,7 +35,7 @@
     width: 140px;
     height: 70px;
     display: flex;
-    /* align-items: flex-start; */
+    /* align-items: flex-end; */
     justify-content: center;
 }
 
