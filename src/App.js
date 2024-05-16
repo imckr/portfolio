@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import {Home, Navbar, Welcome} from './components'
-import { gsap } from "gsap";
+import {Home, Navbar, Welcome, Projects} from './components'
+// import { gsap } from "gsap";
 // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
 // import {ScrollTrigger} from 'gsap-trial/ScrollTrigger';
 // import SplitType from "split-type";
@@ -42,13 +42,38 @@ import { gsap } from "gsap";
 //   // );
 // };
 
+// const dot = document.querySelector("[data-dot]");
+// const dot_outline = document.querySelector("[data-dot-outline]");
+
+// window.addEventListener("mousemove", function (e) {
+//   const posX = e.clientX;
+//   const posY = e.clientY;
+
+//   dot.style.left = `${posX}px`;
+//   dot.style.top = `${posY}px`;
+//   //   dot_outline.style.left = `${posX}px`;
+//   //   dot_outline.style.top = `${posY}px`;
+
+//   dot_outline.animate(
+//     {
+//       left: `${posX}px`,
+//       top: `${posY}px`,
+//     },
+
+//     { duration: 200, fill: "forwards" }
+//   );
+// });
+
 const App = () => {
 
   return (
-    <div className="App" id='smooth-wrapper'>
+    <div className="App" id="smooth-wrapper">
+      {/* <div class="dot" data-dot></div>
+      <div class="dot-outline" data-dot-outline></div> */}
       <Welcome />
       <Home />
       <Navbar />
+      <Projects />
       {/* <Home />
       <Home />
       <Home />

@@ -57,14 +57,17 @@
 
 .Role1, .Roles p {
     transform: rotate(-180deg);
+    font-size: 18px;
 }
 
 .Role2 p {
     transform: rotate(-180deg);
+    font-size: 18px;
 }
 
 .Role3 p {
     transform: rotate(-180deg);
+    font-size: 18px;
 }
 
 .role-path-anim {
@@ -81,6 +84,11 @@
 
 .Roles p {
     transform: rotate(-180deg);
+    font-size: 18px;
+}
+
+.Role1 p {
+    font-size: 18px;
 }
 
 .scrollB {

@@ -8,6 +8,7 @@ import SH from "../../container/SocialHandles/SH";
 import RL from "../../container/RolesLine/RL"
 import mouseImg from "../../assets/computer-mouse.svg"
 
+
 const Home = () => {
   const text = new SplitType(".text", { types: "chars" });
   // alert(text)
@@ -27,7 +28,7 @@ const Home = () => {
       duration: 1,
       delay: 10,
       ease: "back.inOut",
-      repeat: 0,
+      // repeat: 0,
       repeatDelay: 3,
     }
   );
@@ -37,7 +38,7 @@ const Home = () => {
       <div className="mouse-img">
         <img src={mouseImg} alt="img-1" />
       </div>
-      <Background/>
+      <Background l1="INSPIRE" l2="HOPE &"/>
       <div className="home-name">
         <h1 className="text">Hii,</h1><br />
         <h1 className="text">im__CKR</h1>

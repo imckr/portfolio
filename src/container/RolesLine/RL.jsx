@@ -15,7 +15,7 @@ gsap.registerPlugin(MotionPathPlugin);
 
 gsap.to(".Roles", {
   duration: 10,
-  // repeat: 0,
+  repeat: 0,
   // yoyo: true,
   ease: "power1.inOut",
   // stagger: 0.3,
@@ -91,7 +91,7 @@ gsap.fromTo(
 const RL = () => {
   const role1 = "Designer";
   const role2 = "Developer";
-  const role3 = "Coder";
+  const role3 = "Programmer";
   const scrollD = "<| Wanna Know More";
 
   return (
